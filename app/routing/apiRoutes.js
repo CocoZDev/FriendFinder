@@ -34,6 +34,8 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know their most compatible friend.
+    // ---------------------------------------------------------------------------
+    // NEED TO ADD!!!!!!!!!!! 
     // Compatibility Logic - Determine the user's most compatible friend using the following as a guide:
     // Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
     // With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
@@ -46,5 +48,6 @@ module.exports = function(app) {
 
     friendsData.push(req.body);
     res.json(true);
+
     });
   };
