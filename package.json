@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Zoey007/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.18.1",
+    "chosen-js": "^1.8.2",
     "express": "^4.15.4"
   }
 }
